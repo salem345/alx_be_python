@@ -9,11 +9,11 @@ class SimpleCalculator:
         """Return the subtraction of b from a."""
         return a - b
 
-    def multiply(self, a, b):
+    def multiplicati(self, a, b):
         """Return the multiplication of a and b."""
         return a * b
 
-    def divide(self, a, b):
+    def division(self, a, b):
         """Return the division of a by b. Returns None if b is zero."""
         if b == 0:
             return None
