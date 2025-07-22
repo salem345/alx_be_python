@@ -9,7 +9,7 @@ class SimpleCalculator:
         """Return the subtraction of b from a."""
         return a - b
 
-    def multiplicati(self, a, b):
+    def multiplication(self, a, b):
         """Return the multiplication of a and b."""
         return a * b
 
