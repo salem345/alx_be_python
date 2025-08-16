@@ -1,11 +1,13 @@
-from book_class import Book
+from library_system import Book, EBook, PrintBook, Library
 
 def main():
-    # Creating an instance of Book
-    my_book = Book("1984", "George Orwell", 1949)
+    # Create a Library instance
+    my_library = Library()
 
-    # Demonstrating the __str__ method
-    print(my_book)  # Expected to use __str__
+    # Create instances of each type of book
+    classic_book = Book("Pride and Prejudice", "Jane Austen")
+    digital_novel = EBook("Snow Crash", "Neal Stephenson", 500)
+    paper_novel = PrintBook("The Catcher in the Rye", "J.D. Salinger", 234)
 
     # Demonstrating the __repr__ method
     print(repr(my_book))  # Expected to use __repr__
